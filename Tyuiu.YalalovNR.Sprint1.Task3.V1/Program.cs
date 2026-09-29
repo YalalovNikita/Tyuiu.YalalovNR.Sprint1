@@ -31,6 +31,6 @@ class Program
         h = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("Напишите значение r: ");
         r = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Объём цилиндра: " + Math.Round(ds.CylinderVolume(r, h), 2));
+        Console.WriteLine("Объём цилиндра: " + Math.Round(ds.CylinderVolume(r, h), 3));
     }
 }
