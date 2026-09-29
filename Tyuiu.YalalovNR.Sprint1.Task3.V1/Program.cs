@@ -9,7 +9,7 @@ class Program
         DataService ds = new DataService();
 
 
-        Console.Title = "Спринт #0 | Выполнил: Ялалов Н. Я. | ИБКСб-26-1";
+        Console.Title = "Спринт #1 | Выполнил: Ялалов Н. Я. | ИБКСб-26-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                              *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");

@@ -8,11 +8,11 @@ namespace Tyuiu.YalalovNR.Sprint1.Task7.V29.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 1;
-            double y = 2;
-            double z = 1.218;
+            double x = 2;
+            double y = 4;
+            double z = 2.072;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(z,res, 0.001);
+            Assert.AreEqual(z, res, 0.001);
         }
     }
 }
